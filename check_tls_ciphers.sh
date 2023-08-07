@@ -3,8 +3,8 @@
 # Set the server hostname and port
 SERVER_HOST="onlinetoolsuat.ups.com"
 SERVER_PORT="443"
-#SERVER_IP="184.31.119.168"
-SERVER_IP="104.112.207.194"
+SERVER_IP="184.31.119.168"
+#SERVER_IP="23.7.186.93"
 
 # Load  cipher suites from JSON file
 ciphers_json=$(cat ciphers.json)
