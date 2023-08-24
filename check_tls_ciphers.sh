@@ -1,5 +1,5 @@
 #!/bin/bash
-
+echo "Starting..."
 # Set the server hostname and port
 SERVER_HOST="onlinetoolsuat.ups.com"
 SERVER_PORT="443"
