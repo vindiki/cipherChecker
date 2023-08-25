@@ -2,7 +2,7 @@
 FROM alpine:latest
 
 # Install required packages
-RUN apk --no-cache add openssl jq
+RUN apk --no-cache add openssl jq bash
 
 # Set the working directory
 WORKDIR /app
@@ -15,5 +15,5 @@ COPY ciphers.json .
 RUN chmod +x check_tls_ciphers.sh
 
 # Run the script
-CMD ["./check_tls_ciphers.sh"]
+CMD ["bash", "check_tls_ciphers.sh"]
 

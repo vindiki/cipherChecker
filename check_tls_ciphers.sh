@@ -1,11 +1,11 @@
 #!/bin/bash
 echo "Starting..."
 # Set the server hostname and port
-SERVER_HOST="onlinetoolsuat.ups.com"
+SERVER_HOST="preprod.id.ups.com"
 SERVER_PORT="443"
-SERVER_IP="184.31.119.168"
+SERVER_IP="23.44.201.77"
 #SERVER_IP="23.7.186.93"
-
+echo "Host: ${SERVER_HOST}"
 # Load  cipher suites from JSON file
 ciphers_json=$(cat ciphers.json)
 
